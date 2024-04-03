@@ -1,0 +1,19 @@
+.pagination-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination-container button:hover {
+    background-color: #0056b3;
+  }
+  

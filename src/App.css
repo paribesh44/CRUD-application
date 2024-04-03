@@ -1,0 +1,91 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  color: #777;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+.profile-button {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  padding: 12px 24px; /* Padding */
+  font-size: 16px; /* Font size */
+  border: none; /* No border */
+  border-radius: 30px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+  outline: none; /* Remove focus outline */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.profile-button:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
+
+.profile-button:focus {
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.3); /* Add focus outline */
+}
+
+.profile-button:active {
+  transform: translateY(2px); /* Push button down slightly when clicked */
+}
+
+.home-link {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  padding: 12px 24px; /* Padding */
+  font-size: 18px; /* Font size */
+  font-weight: bold; /* Bold text */
+  text-decoration: none; /* Remove underline */
+  border: none; /* Remove border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Cursor on hover */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.home-link:hover {
+  background-color: #45a049; /* Darker green color on hover */
+  transform: translateY(-2px); /* Move button slightly up on hover */
+}
+
+.home-link:focus {
+  outline: none; /* Remove focus outline */
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); /* Remove shadow on focus */
+}

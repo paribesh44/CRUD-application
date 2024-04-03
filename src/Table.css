@@ -1,0 +1,53 @@
+/* Table.css */
+
+.table-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .actions-column {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .actions-column button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .actions-column .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .actions-column .edit-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .actions-column button:hover {
+    background-color: #555;
+  }
+  
+ 
